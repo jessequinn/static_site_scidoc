@@ -5,9 +5,6 @@ export default {
     port: process.env.PORT || 4100,
     host: process.env.HOST || '0.0.0.0',
   },
-  /*
-   ** Headers of the page
-   */
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -36,9 +33,6 @@ export default {
       },
     ],
   },
-  /*
-   ** Customize the progress-bar color
-   */
   loading: { color: '#ffffff' },
   router: {
     middleware: 'i18n',
@@ -46,17 +40,8 @@ export default {
   generate: {
     routes: ['/', '/pt'],
   },
-  /*
-   ** Global CSS
-   */
   css: ['@assets/scss/main.scss'],
-  /*
-   ** Plugins to load before mounting the App
-   */
   plugins: ['~/plugins/i18n.js'],
-  /*
-   ** Nuxt.js dev-modules
-   */
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/style-resources',
@@ -71,21 +56,15 @@ export default {
   fontawesome: {
     imports: [
       {
-        set: '@fortawesome/free-solid-svg-icons', // Solid icons
+        set: '@fortawesome/free-solid-svg-icons',
         icons: ['faEnvelope', 'faGlobe', 'faAt'],
       },
     ],
   },
-  /*
-   ** Nuxt.js modules
-   */
   modules: [],
   styleResources: {
     scss: ['assets/scss/main.scss'],
   },
-  /*
-   ** Build configuration
-   */
   build: {
     postcss: {
       preset: {
@@ -94,11 +73,7 @@ export default {
         },
       },
     },
-    /*
-     ** You can extend webpack config here
-     */
     extend(config, ctx) {
-      // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',

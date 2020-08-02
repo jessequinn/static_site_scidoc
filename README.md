@@ -1,6 +1,4 @@
-# frontend_scidoc
-
-> My well-made Nuxt.js project
+# static site
 
 ## Build Setup
 
@@ -8,7 +6,7 @@
 # install dependencies
 $ yarn install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:4100
 $ yarn dev
 
 # build for production and launch server

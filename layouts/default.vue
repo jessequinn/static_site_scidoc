@@ -5,8 +5,7 @@
   </div>
 </template>
 
-<style></style>
-<script>
+<script lang="js">
 import NavBar from '../components/NavBar'
 export default {
   components: { NavBar },

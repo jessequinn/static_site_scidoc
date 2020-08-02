@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-1">
-          <img src="~/assets/images/logo.svg" alt="SCIDOC" width="100" />
+          <img src="~/assets/svg/logo.svg" alt="SCIDOC" width="100" />
           {{ $t('home.title') }}
         </h1>
         <p class="subtitle is-3">
@@ -32,5 +32,3 @@ import Vue from 'vue'
 
 export default Vue.extend({})
 </script>
-
-<style lang="scss" scoped></style>
