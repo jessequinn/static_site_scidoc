@@ -1,0 +1,8 @@
+{
+  "home": {
+    "title": "SCIDOC",
+    "subtitle": "Nosso foco é o desenvolvimento web.",
+    "introduction": "Oferecemos fullstack, front-end e back-end, devops, registro e vários outros microsserviços. Utilizamos várias linguagens, frameworks e serviços em nuvem, como Python (Django, Flask), PHP (Symfony, Slim), Javascript (ReactJS, AngularJS), Go (Micro), ELK, AWS e DigitalOcean para atingir seus objetivos.",
+    "subintroduction": "Por favor, não hesite em contactar-nos em "
+  }
+}

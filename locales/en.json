@@ -1,0 +1,8 @@
+{
+  "home": {
+    "title": "SCIDOC",
+    "subtitle": "Our focus is web development.",
+    "introduction": "We offer fullstack, both frontend and backend, devops, logging and various other microservices. We use various languages, frameworks, and cloud services such as Python (Django, Flask), PHP (Symfony, Slim), Javascript (ReactJS, AngularJS), Go (Micro), ELK, AWS and DigitalOcean to achieve your goals.",
+    "subintroduction": "Please do not hesitate to contact us at "
+  }
+}
