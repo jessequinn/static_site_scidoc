@@ -1,6 +1,6 @@
 export default {
   mode: 'universal',
-  target: 'static',
+  // target: 'static',
   server: {
     port: process.env.PORT || 4100,
     host: process.env.HOST || '0.0.0.0',
