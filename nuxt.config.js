@@ -1,5 +1,5 @@
 export default {
-  mode: 'universal',
+  // mode: 'universal',
   // target: 'static',
   server: {
     port: process.env.PORT || 3000,
