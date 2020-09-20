@@ -19,8 +19,7 @@
             <font-awesome-layers class="fa-1x">
               <font-awesome-icon :icon="['fas', 'envelope']" />
             </font-awesome-layers>
-          </a>
-          .
+          </a>.
         </p>
       </div>
     </div>

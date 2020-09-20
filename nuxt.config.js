@@ -44,7 +44,6 @@ export default {
   plugins: ['~/plugins/i18n.js'],
   buildModules: [
     '@nuxt/typescript-build',
-    '@nuxtjs/style-resources',
     'nuxt-fontawesome',
     [
       '@nuxtjs/google-analytics',
@@ -62,9 +61,6 @@ export default {
     ],
   },
   modules: [],
-  styleResources: {
-    scss: ['assets/scss/main.scss'],
-  },
   build: {
     postcss: {
       preset: {
